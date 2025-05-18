@@ -1,7 +1,8 @@
 p{
   display: block;
 margin: 0;
-padding: 0;
+padding: 0.2rem;
+text-align: center;
 }
 .footerDiv{
 display: flex;
