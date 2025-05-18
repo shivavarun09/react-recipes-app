@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footerDiv'>
-      <p>© 2025 RecipesApp — Designed & Developed with ❤️ by Shivavarun.</p> <br />
+      <p style={{textAlign:"center"}}>© 2025 RecipesApp — Designed & Developed with ❤️ by Shivavarun.</p> <br />
       
     </div>
   )

@@ -13,8 +13,8 @@ const Home = () => {
         Let’s cook, create, and enjoy together! 🍳❤️
       </p>
       <p className="home-paragraph">
-        👇 Click the button below to explore all our delicious recipes! 🍽️
-        Let’s cook, create, and enjoy together! ❤️
+        ❤️ Click the button below to explore all our delicious recipes! 🍽️
+        Let’s cook, create, and enjoy together! 👇
       </p>
       <Link to='/recipes' className='expolrealllink'>
         <button className="explore-button">Explore All Recipes</button>
