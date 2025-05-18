@@ -7,6 +7,7 @@ import Home from './Componets/Home/Home'
 import axios from 'axios'
 import NotFound from './Componets/NotFound/NotFound'
 import SingleRecipeDetails from './Componets/SingleRecipeDetailsPage/SingleRecipeDetailsPage'
+import Footer from './Componets/Footer/Footer'
 const App = () => {
     const [recipesApiData,setApiData]= useState([]);
   useEffect(()=>{
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/fevourites' element={<FevouriteRecipes/>} />
         <Route path='*' element={<NotFound/>} />
       </Routes>
+      <Footer/>
     </div>
   )
 }

@@ -28,7 +28,7 @@ setTimeout(()=>{
 },500)
   return (
     <div className='CardsGrid'>
-    <p style={{color:"green", position:"sticky",top:"45vh",zIndex:"99",backgroundColor:"white",padding:"0.2rem",borderRadius:"2%"}}>{fevMessage}</p>
+    <p style={{color:"green", position:"sticky",top:"45vh",zIndex:"99",backgroundColor:"white",padding:"0.2rem",borderRadius:"2%",fontSize:"18px"}}>{fevMessage}</p>
 
       <h4 style={{textAlign:'center',marginTop:'0'}}>🔥👨‍🍳 Explore All Recipes – Cook, Eat & Repeat! 🍲🍛</h4>
   {singleRecipe.map((x, index) => (

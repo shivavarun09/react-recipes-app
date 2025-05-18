@@ -15,10 +15,9 @@ setFevCount(count)
     <div className='Navbar_main'>
     
       <Navbar bg="primary" data-bs-theme="dark" className=''>
-        <Container fluid>
+        <Container >
           <Link className='Navbar-linnks' to='/'>Home</Link>
           <Nav className="ms-auto">
-            <Link className='Navbar-linnks' to='/recipes'>View All Recipes</Link>
             <Link className='Navbar-linnks' to='/fevourites'> 
             <div style={{ position: "relative" }}>
                 <span style={{ 
@@ -29,7 +28,7 @@ setFevCount(count)
                   fontSize: "10px" 
                 }}>
                   {fevCount}
-                </span>Fevs❤️
+                </span>Fevourites❤️
               </div>
     </Link>
           </Nav>
