@@ -1,0 +1,99 @@
+/* Container styles */
+.DetailsContainer {
+  max-width: 1100px;
+  margin: auto;
+  padding: 4px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Recipe title */
+h3 {
+  text-align: center;
+  font-family: 'Cursive', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Main layout */
+.Detaisldiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .Detaisldiv {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Image section */
+.Detaisldiv img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+/* Recipe information box */
+.recipe-info {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-info h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #27ae60;
+}
+
+.recipe-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+/* Section headers */
+h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 10px;
+  color: #2980b9;
+}
+
+/* Ingredient & instruction list styles */
+ul, ol {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .recipe-info {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .recipe-info p {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+}

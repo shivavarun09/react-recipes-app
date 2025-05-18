@@ -1,0 +1,12 @@
+.Navbar-linnks{
+  text-decoration: none;
+  margin: 5px;
+}
+.Navbar_main{
+  position: sticky !important;
+  top: 0;
+  z-index: 99;
+}
+.Navbar-linnks:hover{
+  color: black;
+}

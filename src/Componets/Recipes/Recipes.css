@@ -1,0 +1,42 @@
+.CardsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.CardsGrid h4 {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.CardsGrid .card {
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.CardsGrid .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.CardsGrid .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.CardsGrid .btn-primary {
+  background-color: #007bff;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.CardsGrid .btn-primary:hover {
+  background-color: #0056b3;
+}
