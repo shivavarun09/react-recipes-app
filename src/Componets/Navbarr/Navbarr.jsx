@@ -18,6 +18,8 @@ setFevCount(count)
         <Container >
           <Link className='Navbar-linnks' to='/'>Home</Link>
           <Nav className="ms-auto">
+            <Link className='Navbar-linnks' to='/signup'>SignUp</Link>
+            <Link className='Navbar-linnks' to='/profile'>Profile</Link>
             <Link className='Navbar-linnks' to='/fevourites'> 
             <div style={{ position: "relative" }}>
                 <span style={{ 

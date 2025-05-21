@@ -8,6 +8,11 @@ import axios from 'axios'
 import NotFound from './Componets/NotFound/NotFound'
 import SingleRecipeDetails from './Componets/SingleRecipeDetailsPage/SingleRecipeDetailsPage'
 import Footer from './Componets/Footer/Footer'
+import RecipesSignupForm from './Componets/RecipesSignupForm/RecipesSignupForm'
+import RecipesLoginForm from './Componets/RecipesLoginForm/RecipesLoginForm'
+import Profile from './Componets/Profile/Profile'
+import ContributerDashboard from './Componets/ContributerDashboard/ContributerDashboard'
+
 const App = () => {
     const [recipesApiData,setApiData]= useState([]);
   useEffect(()=>{
@@ -20,9 +25,14 @@ const App = () => {
   },[])
   return (
     <div>
+      {/* <RecipesSignupForm/> */}
       <Navbarr/>
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/signup' element={<RecipesSignupForm/>} />
+        <Route path='/login' element={<RecipesLoginForm/>} />
+        <Route path='/contributerDashboard' element={<ContributerDashboard/>} />
+        <Route path='/profile' element={<Profile/>} />
         <Route path='/recipes'  element={<Recipes singleRecipe={recipesApiData}/>} />
         <Route path='/recipes/:id'  element={<SingleRecipeDetails singleRecipe={recipesApiData}/>} />
         <Route path='/fevourites' element={<FevouriteRecipes/>} />
