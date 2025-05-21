@@ -42,7 +42,7 @@ else{
       <h3>Login Here</h3>
 <input type="text" placeholder='Enter Email' name="email" id="email" required onChange={(e)=>{setLoginDetails({...loginDetails,email:e.target.value})}}/> <br />
 <input type="password" placeholder='Enter password' name="password" id="password" required onChange={(e)=>{setLoginDetails({...loginDetails,password:e.target.value})}}/> <br />
-<button type='submit'>Login</button>
+<button type='submit' >Login</button>
 <p>Don't have accout <span style={{color:"red",cursor:"pointer"}} onClick={()=>{navigate('/signup')}}>Signup</span></p>
       </form>
     </div>
